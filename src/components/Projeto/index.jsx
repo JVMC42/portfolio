@@ -1,4 +1,3 @@
-import { PromiseProvider } from "mongoose"
 import "./style.css"
 import link from "../../assets/link.png"
 
