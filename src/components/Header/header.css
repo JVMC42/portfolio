@@ -1,0 +1,31 @@
+.header {
+    background-color: #c4c4c42a;
+    padding: 1%;
+    display: flex; 
+    align-items: center;
+    border-bottom: solid;
+   border-bottom-color: #1cfeba57;
+}
+
+.header * {
+    color: #03989e;
+}
+
+.header h1 {
+    flex-grow: 1;
+    padding-left: 1%;
+}
+
+.header a {
+    padding: 1vw;
+    text-decoration: none;
+    border-radius: 20%;
+   
+}
+
+.header nav a:hover {
+    background-color: #95F2D9;
+    color: #161925;
+}
+
+
