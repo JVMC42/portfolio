@@ -3,8 +3,9 @@ import Skills from "../../components/Skills";
 import Projetos from "../../components/Projetos"
 import Sobre from "../../components/Sobre";
 import Footer from "../../components/Footer"
-const Home = React.lazy(()=> import("../../components/Home"))
+import Home from "../../components/Home"
 import "./style.css"
+
 
 export default function HomePage() {
     return (<>
