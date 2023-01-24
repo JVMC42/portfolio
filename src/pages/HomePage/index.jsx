@@ -5,7 +5,6 @@ import Sobre from "../../components/Sobre";
 import Footer from "../../components/Footer"
 const Home = React.lazy(()=> import("../../components/Home"))
 import "./style.css"
-import LazyLoad from 'react-lazyload';
 
 export default function HomePage() {
     return (<>
