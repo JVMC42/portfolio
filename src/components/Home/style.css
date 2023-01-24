@@ -14,7 +14,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px;
+  margin-top: 20vh;
+  padding: 100px;
   color: #03989e;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }

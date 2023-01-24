@@ -24,6 +24,7 @@
   
 .skills {
     padding: 100px;
+    padding-top: 200px;
     height: 90vh;
     display: flex;
     flex-direction: column;

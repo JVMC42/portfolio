@@ -3,7 +3,7 @@ import "./style.css"
 
 export default function Projetos() {
     return(<>
-        <div className="main">
+        <div id="projetos" className="main">
         <h1 className="titleProjeto">Projetos</h1>
         <div className="projetos">
             <Projeto title="Ecommerce" desc="Next.js, MongoDb, Tailwind" link="https://ecommerce-chi-bay.vercel.app/" git="https://github.com/JVMC42/Ecommerce"/>

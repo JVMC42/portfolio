@@ -4,7 +4,7 @@ import "./skills.css"
 export default function Skills() {
     return (
         <>
-            <section className="skills">
+            <section id="skills" className="skills">
             <h1 className="skillsTitle">Skills</h1>
             <div>
               <span>

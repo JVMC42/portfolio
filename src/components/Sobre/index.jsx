@@ -4,7 +4,7 @@ import "./sobre.css"
 
 export default function Sobre() {
     return (
-            <section className="sobre">
+            <section id="sobre" className="sobre">
             <img src={sobre} alt="desenho" />
             <span>
             <h1>Sobre mim</h1>
