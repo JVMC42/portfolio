@@ -28,6 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 500px;
 }
 
 .skillsTitle {
@@ -44,11 +45,8 @@
     overflow-x: scroll ;
     background: linear-gradient(0deg, rgba(45,63,253,1) 0%, rgba(34,193,195,1) 100%);
     border-radius: 4%;
-    width: 90vw;
+    width: 80vw;
     animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-duration: 1s;
-    animation-delay: 0.5s;
-    
 }
 
 ::-webkit-scrollbar {

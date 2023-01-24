@@ -12,7 +12,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 500px;
+    margin-bottom: 100px;
     animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation-duration: 3s;
 }

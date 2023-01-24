@@ -1,11 +1,9 @@
-import Header from "../../components/Header";
 import Skill from "../../components/Skill";
 import "./skills.css"
 
 export default function Skills() {
     return (
         <>
-            <Header/>
             <section className="skills">
             <h1 className="skillsTitle">Skills</h1>
             <div>

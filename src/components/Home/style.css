@@ -1,0 +1,41 @@
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  color: #03989e;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.home span {
+/*   margin-top: -50vh; */
+}
+
+.home h1 {
+  font-size: 150px;
+
+}
+
+.home #first {
+  font-size: 80px;
+  color: white;
+}
+
+.home #second {
+  font-size: 80px;
+  color: white;
+ 
+
+}

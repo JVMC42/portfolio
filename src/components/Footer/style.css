@@ -1,0 +1,19 @@
+.footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    background-color: #c4c4c42a;
+    padding: 10px;
+}
+
+.footer nav {
+    margin-left: 40px ;
+}
+
+.footer img {
+    height: 5vh;
+    width: 5vh;
+    margin: 2px;
+}

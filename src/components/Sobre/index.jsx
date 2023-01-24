@@ -4,9 +4,7 @@ import "./sobre.css"
 
 export default function Sobre() {
     return (
-        <main className="sobre">
-            <Header/>
-            <section>
+            <section className="sobre">
             <img src={sobre} alt="desenho" />
             <span>
             <h1>Sobre mim</h1>
@@ -16,6 +14,5 @@ export default function Sobre() {
             <p id="p4">Se eu pudesse me definir em 2 palavras, certamente seriam: <strong> criativo e esforçado!</strong></p>
             </span>
             </section>
-        </main>
     )
 }

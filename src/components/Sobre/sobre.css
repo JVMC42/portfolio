@@ -1,0 +1,84 @@
+@keyframes scale-in-ver-top {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+}
+
+@keyframes scale-in-center {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.sobre  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+}
+
+
+
+.sobre img{
+    height: 70vh;
+    width: 40vw;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.sobre span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    width: 50vw;
+    color: #03989e;
+    animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+.sobre span h1 {
+    font-size: 50px;
+    /* background-color: red; */
+    margin: 1%;
+    animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.sobre span p {
+    margin: 1%;
+    font-size: 25px;
+}
+
+.sobre #p1 {
+    animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-duration: 1s;
+   animation-delay: 0.5s;
+}
+
+.sobre #p2 {
+    animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+.sobre #p3 {
+    animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.sobre #p4 {
+    animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
