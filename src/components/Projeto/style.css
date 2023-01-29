@@ -50,21 +50,44 @@
 
 }
 
-.projeto h2 {
-    margin: 1vh 0px 1vh 0px;
-}
+
 
 .projeto nav {
     padding: 1%;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projeto nav * {
+  padding: 1px;
 }
 
 .projeto a {
+    height: 8vh;
+    width: 19vw;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .projeto img {
-    height: 5vh;
-    width: 5vh;
-    margin: 0px 1vw 0px 1vw
+    height: 8vh;
+    width: 8vh;
+   
+}
+
+@media (max-width:600px) {
+
+  .projeto img {
+   
+    
+}
+
+.projeto h2 {
+  font-size: 20px;
+}
+
 }

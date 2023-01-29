@@ -21,7 +21,6 @@
 
 .titleProjeto {
     font-size: 50px;
-   margin-bottom: -5vh;
    color: #03989e;
 }
 
@@ -31,4 +30,35 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding: 5%;
+}
+
+.projetos * {
+  width: 29vw;
+}
+
+@media (max-width:600px) {
+
+.main {
+  justify-content: start;
+  height: 10vh;
+  margin-top: 70px;
+  margin-bottom: 250vh;
+}
+
+  .titleProjeto {
+    font-size: 50px;
+   margin-bottom: 1vh;
+   color: #03989e;
+}
+
+  .projetos {
+   display: flex;
+   flex-direction: column;
+  }
+
+  .projetos * {
+    height: 30vh;
+    padding: 2%;
+    width: 79vw;
+  }
 }

@@ -83,3 +83,30 @@
     animation-duration: 1s;
     animation-delay: 1s;
 }
+
+@media (max-width: 600px) {
+  .sobre {
+    flex-direction: column;
+    margin-top: 300px;
+    padding: 1px;
+  }
+
+  .sobre span {
+    padding: 0%;
+    width: 90vw;
+  }
+ 
+  .sobre img{
+    height: 45vh;
+    width: 70vw;
+}
+
+.sobre span h1 {
+  font-size: 40px;
+}
+
+.sobre span p {
+  font-size: 20px;
+}
+
+}

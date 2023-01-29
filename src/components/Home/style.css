@@ -37,6 +37,23 @@
 .home #second {
   font-size: 80px;
   color: white;
- 
+}
+
+@media (max-width: 600px) {
+  
+  .home h1 {
+    font-size: 80px;
+  
+  }
+  
+  .home #first {
+    font-size: 40px;
+    color: white;
+  }
+  
+  .home #second {
+    font-size: 40px;
+    color: white;
+  }
 
 }

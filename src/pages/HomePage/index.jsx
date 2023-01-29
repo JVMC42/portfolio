@@ -9,20 +9,12 @@ import "./style.css"
 
 export default function HomePage() {
     return (<>
-    
-     <Header/>
-     
-
-     <Home/>
-     
-        <Sobre/>
-
-     
-        <Skills/>
-        
-        <Projetos/>
-        
-        <Footer/>
+    <Header/>
+    <Home/>
+    <Sobre/> 
+    <Skills/>
+    <Projetos/>
+    <Footer/>
         </>
     )
 }

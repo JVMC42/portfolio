@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik:wght@400;500;700&display=swap');
 
 * {
-    position:sticky;
     margin: 0;
     padding: 0;
     box-sizing: border-box;

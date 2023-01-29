@@ -1,13 +1,13 @@
 .header {
     background-color: #c4c4c42a;
-    padding: 10px;
+    padding: 15px;
     display: flex; 
     align-items: center;
     position: fixed;
     border-bottom: solid;
     border-bottom-color: #1cfeba7a;
-    width: 100%;
-    margin-top:-20vh;
+    width: 100vw;
+    margin-top: -20vh;
     z-index: 999;
 }
 
@@ -30,6 +30,14 @@
 .header nav a:hover {
     background-color: #95F2D9;
     color: #161925;
+}
+
+@media (max-width:600px) {
+    .header nav a:hover {
+        background-color: transparent;
+        color: #03989e;
+    }
+    
 }
 
 
