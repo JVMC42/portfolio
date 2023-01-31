@@ -33,7 +33,8 @@
 }
 
 .projetos * {
-  width: 29vw;
+  width: 25vw;
+  padding: 1.5%;
 }
 
 @media (max-width:600px) {
